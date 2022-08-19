@@ -1,4 +1,9 @@
 /********** Template CSS **********/
+body{
+    background-color: rgb(213, 211, 211);
+}
+
+
 :root {
     --primary: #E1306C;
     --light: #F3F6F8;
@@ -575,7 +580,30 @@
     height: 800px;
     overflow: hidden;
     border: none;
+   
 }
+
 .poster{
     margin: 15px;
+}
+
+div.scrollmenu {
+    background-color: rgb(251, 225, 242);
+    margin-left: 30rem;
+    width: 24rem;
+    overflow: auto;
+    white-space: nowrap;
+    border-radius: 10px;
+}
+
+div.scrollmenu a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+}
+
+div.scrollmenu a:hover {
+    background-color: rgb(246, 238, 242);
 }

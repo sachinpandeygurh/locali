@@ -8340,14 +8340,16 @@ fieldset:disabled .btn {
 }
 
 .bg-animate{
-    background: linear-gradient(90deg, #150a27, #4e277b, #8241f9);
-    background: linear-gradient(177deg, #405DE6, #5B51D8, #833AB4, #C13584, #E1306C, #FD1D1D, #F56040, #F77737, #FCAF45, #FFDC80);
+    background: linear-gradient(9deg,#005944, #150a27, #4e277b, #005944);
+    background: linear-gradient(1deg, #005944, #5B51D8, #833AB4, #C13584, #E1306C, #FD1D1D, #F56040, #F77737, #FCAF45, #FFDC80);
 }
 
 .bg-primary {
     background-color: #833AB4 !important;
-    background: linear-gradient(177deg, #405DE6, #5B51D8, #833AB4, #C13584, #E1306C, #FD1D1D, #F56040, #F77737, #FCAF45, #FFDC80);
+    background: linear-gradient(10deg,red,green);
 }
+
+
 
 .bg-secondary {
     background-color: #6c757d !important
@@ -8375,6 +8377,7 @@ fieldset:disabled .btn {
 
 .bg-dark {
     background-color: #0E2E50 !important
+    
 }
 
 .bg-body {

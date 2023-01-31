@@ -630,3 +630,11 @@ div.scrollmenu a:hover {
 		background-position: 0% 50%;
 	}
 }
+
+#fixedwhatsapp{
+    padding: 1rem;
+    position: fixed;
+    left: 1em;
+    bottom: 10em;
+    border-radius: 10em;
+}
